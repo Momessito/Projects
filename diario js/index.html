@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex" style="display:flex;">
+    <div class="left" id="flex" style="display:flex;flex-direction: column;flex-wrap: nowrap;align-content: center;">
+        <div class="button"  style="display:flex;justify-content: center;flex-direction: row;flex-wrap: nowrap;align-content: center;">
+        <button onclick="addNote()">ADD NOTE</button>
+    </div>
+
+   
+
+    
+    </div>
+    <div class="notes">
+        <h1>ADICIONE TODAS SUAS ANOTAÇÕES📖</h1>
+        
+        <input type="text" id="titulo" placeholder="TITULO...">
+        <input type="date" id="data">
+        <textarea rows="4" cols="50" id="texto" placeholder="DIGITE AQUI SUAS ANOTAÇÕES"></textarea>
+    </div></div>
+</body>
+<script src="script.js"></script>
+</html>
